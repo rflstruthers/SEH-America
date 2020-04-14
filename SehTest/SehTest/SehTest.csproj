@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.10.1" />
+    <PackageReference Include="Google.Apis" Version="1.45.0" />
+    <PackageReference Include="Google.Apis.Customsearch.v1" Version="1.45.0.1924" />
+    <PackageReference Include="Microsoft.Office.Interop.PowerPoint" Version="15.0.4420.1017" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+    <PackageReference Include="Syncfusion.Presentation.Net.Core" Version="18.1.0.44" />
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>

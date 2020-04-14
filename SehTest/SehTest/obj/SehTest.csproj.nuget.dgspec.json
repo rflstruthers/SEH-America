@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\User0\\source\\repos\\SehTest\\SehTest\\SehTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User0\\source\\repos\\SehTest\\SehTest\\SehTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User0\\source\\repos\\SehTest\\SehTest\\SehTest.csproj",
+        "projectName": "SehTest",
+        "projectPath": "C:\\Users\\User0\\source\\repos\\SehTest\\SehTest\\SehTest.csproj",
+        "packagesPath": "C:\\Users\\User0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User0\\source\\repos\\SehTest\\SehTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            },
+            "Google.Apis": {
+              "target": "Package",
+              "version": "[1.45.0, )"
+            },
+            "Google.Apis.Customsearch.v1": {
+              "target": "Package",
+              "version": "[1.45.0.1924, )"
+            },
+            "Microsoft.Office.Interop.PowerPoint": {
+              "target": "Package",
+              "version": "[15.0.4420.1017, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Syncfusion.Presentation.Net.Core": {
+              "target": "Package",
+              "version": "[18.1.0.44, )"
+            },
+            "System.Runtime.InteropServices": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

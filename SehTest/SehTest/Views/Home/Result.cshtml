@@ -1,0 +1,24 @@
+﻿@model List<SehTest.Models.Result>
+
+@{
+    ViewData["Title"] = "Image Suggestions";
+}
+
+<h2>@ViewBag.header</h2>
+
+<h4>@ViewBag.content</h4>
+
+
+<br />
+<div>Please Select an image for your slide.</div>
+<ul>
+    @for (int i = 0; i < 4; i++)
+    {
+    <li style="width:500px">
+        <img src=@Model[i].Link alt="IMAGES" />
+        <a href="@Url.Action("CreateSlide", "Home", new { image = Model[i].Link, header = Model[i].Title, content = Model[i].Content }, null)" title="Delete Area">
+            <input type="button" value="Select Image" class="btn btn-primary" style="height:29px; line-height:75%; border-radius:0;" />
+        </a>
+    </li>
+    }
+</ul>
