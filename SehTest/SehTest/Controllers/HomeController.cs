@@ -31,6 +31,7 @@ namespace SehTest.Controllers
 
             WebClient webClient = new WebClient();
 
+            // Must enter google custom search api key
             string apiKey = "";
             string cx = "016005425349973865389:dsuv558pzqq";
             string query = title + " " + content;
