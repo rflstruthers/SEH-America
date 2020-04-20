@@ -31,7 +31,7 @@ namespace SehTest.Controllers
 
             WebClient webClient = new WebClient();
 
-            string apiKey = "AIzaSyBzPcsIF9C2oaLm3DFiljWemYRiIMNSJuE";
+            string apiKey = "";
             string cx = "016005425349973865389:dsuv558pzqq";
             string query = title + " " + content;
 
